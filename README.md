@@ -6,7 +6,7 @@ I spent under one full working day on this task
 
 ## Overview of Test Plan:
 
-For the theoretical part, I designed a test plan that covers the main features of the action camera. The tests include:
+For the theoretical part, I designed a test plan covering the action camera's main features. The tests include:
 
 - Water resistance
 - Vertical fall resistance
@@ -22,7 +22,7 @@ For the practical part, I implemented the Alphanumeric Sort algorithm in TypeScr
 
 I used console.log to test different scenarios to ensure the sort works as expected.
 
-## How to Run the Tests:
+## How to Run the Tests or check it on CI:
 
 To run the tests, follow these steps:
 
@@ -36,11 +36,17 @@ To run the tests, follow these steps:
 
    ```bash
    node src/alphanumericSort.ts
+
+   or
+
+   npx ts-node src/alphanumericSort.ts
    ```
 
-   Alternatively, since I used GitHub Actions to run the test on CI , you can open and check the output there.
+Alternatively, since I used GitHub Actions to run the test on CI , you can open Actions and check the output there.
 
 Project's tree
+
+```
 .
 ├── README.md
 ├── package-lock.json
@@ -49,3 +55,5 @@ Project's tree
 │ └── alphanumericSort.ts -------> task 2
 ├── test-plan.md -------> task 1
 └── tsconfig.json
+
+```
